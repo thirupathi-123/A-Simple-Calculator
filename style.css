@@ -1,0 +1,87 @@
+/* Importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* Giving Default parameters */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Styling entire body */
+body{
+    width:80vw;
+    height:80vh;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+}
+/* Styling the calculator class  */
+.calculator{
+    height:100%;
+    border:1px solid #717377;
+    padding:20px;
+    border-radius: 16px;
+    background-color: cadetblue;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+/* Styling the input content we give */
+input{
+    border:none;
+    padding:24px;
+    margin-bottom: 30px;
+    background: black;
+    box-shadow: 0px 3px 15px rgba(100,100,100,1);
+    font-size:xx-large;
+    text-align:right;
+    cursor: pointer;
+    color:#ffffff;
+
+}
+/* Style of the place holder  */
+input::placeholder{
+    color: #ffffff;
+    
+}
+/* Giving style to the buttons class */
+.button{
+    width: 100%;
+    border-radius: 25px;
+    font-size: large;
+}
+
+button{
+    border:none;
+    width:60px;
+    height:60px;    
+    margin:10px;
+    border-radius: 50%;
+    background: transparent;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -8px -8px 15px rgba(300,300,300,0.2 );
+    cursor: pointer;
+
+}
+/* Adding style to Equal button */
+.equalbtn{
+    background-color: orange;
+}
+/* Adding Style to Operators to differentiate */
+.operator{
+    color: green;
+}
+
+/* @media screen and (max-width:1200px){
+    body{
+        width:fit-content;
+        height: fit-content;
+       
+    }
+}  */
